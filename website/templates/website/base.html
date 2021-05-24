@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'website/css/base.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Django Website</title>
+</head>
+<body>
+    <header class="jumbotron text-center">
+        <h1>Website Django</h1>
+        <p>O meu primeiro Django Website</p>
+        <nav>
+            <a href="{% url 'website:home' %}" class="btn btn-info">Home</a>
+            <a href="{% url 'website:intro' %}"class="btn btn-info">Intro</a>
+            <a href="{% url 'website:multi' %}" class="btn btn-info">Multi</a>
+        </nav>
+    </header>
+    <article class="container">
+        <main class="col-sm-6">
+	            {% block main %}
+                {% endblock main %}
+</main>
+        <aside class="col-sm-6">
+            {% load static %}
+            <img src="{% static 'website/images/e.jpg' %}">
+        </aside>
+    </article>
+    <footer>E O SPORTING É CAMPEÃO</footer>
+</body>
+</html>
