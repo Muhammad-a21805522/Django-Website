@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78ee81fd-8083-4634-8b0b-15c27d8faa15" name="Default Changelist" comment="" />
+    <list default="true" id="78ee81fd-8083-4634-8b0b-15c27d8faa15" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +85,7 @@
       <updated>1621769434653</updated>
       <workItem from="1621769436496" duration="9000" />
       <workItem from="1621769470952" duration="2523000" />
-      <workItem from="1621848614052" duration="3762000" />
+      <workItem from="1621848614052" duration="4303000" />
     </task>
     <servers />
   </component>
